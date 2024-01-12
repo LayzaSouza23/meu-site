@@ -1,0 +1,77 @@
+*{
+    margin: 100;
+    padding: 100;
+}
+
+#titulo{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    margin-left: 7%;
+}
+#subtitulo{
+    font-family: cursive;
+    color: rgb(255, 254, 254);
+    margin-left: 10%;
+}
+fieldset{
+    border: 1;
+}
+body{
+    background-image: url(ScoobyDooMystery2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: blue;
+    font-family: cursive;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    border-radius: 10xp;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:rgb(255, 255, 255);
+    display: block;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: deeppink;
+    border: 0;
+    margin-bottom: 1em;
+    color: aqua;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.form{
+    background: hsla(0, 0%, 100%, 0.001);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    background-position: center;
+    margin-right: 20%;
+}
+.campo{
+    margin-bottom: 1em;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    display: block;
+}
